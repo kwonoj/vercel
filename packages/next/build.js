@@ -19,6 +19,8 @@ async function main() {
         '-e',
         'esbuild',
         '-e',
+        'next/package.json',
+        '-e',
         '@vercel/build-utils',
         '-o',
         'dist/main',
